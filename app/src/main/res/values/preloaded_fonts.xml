@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/abel</item>
+        <item>@font/graduate</item>
+        <item>@font/petit_formal_script</item>
+        <item>@font/pinyon_script</item>
+        <item>@font/yeseva_one</item>
+    </array>
+</resources>

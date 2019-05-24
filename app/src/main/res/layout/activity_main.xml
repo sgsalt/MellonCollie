@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.example.android.melloncollie.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/melloncolliecrop" />
+
+    <TextView
+        style="@style/TitleText"
+        android:text="@string/mellon_collie_infinite_sadness"
+        app:fontFamily="@font/graduate" />
+
+    <ImageView
+        android:layout_width="175dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="#B0BEC5" />
+
+    <TextView
+        style="@style/CategoryText"
+        android:gravity="center"
+        android:text="@string/deluxe_edition"
+        android:textColor="#B0BEC5"
+        android:textSize="16sp"
+        app:fontFamily="@font/abel" />
+
+    <ImageView
+        android:layout_width="175dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="#B0BEC5" />
+
+    <TextView
+        android:id="@+id/about_mellon_collie"
+        style="@style/CategoryText"
+        android:layout_marginTop="16dp"
+        android:text="@string/about"
+        app:fontFamily="@font/abel" />
+
+    <TextView
+        android:id="@+id/smashing_pumpkins"
+        style="@style/CategoryText"
+        android:text="@string/smashing_pumpkins"
+        app:fontFamily="@font/abel" />
+
+    <TextView
+        android:id="@+id/track_list"
+        style="@style/CategoryText"
+        android:layout_marginBottom="16dp"
+        android:text="@string/track_list"
+        app:fontFamily="@font/abel" />
+
+
+    <Button
+        android:id="@+id/buy_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/buy"
+        android:textColor="#37474F"
+        android:textSize="16sp" />
+
+</LinearLayout>
