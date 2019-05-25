@@ -27,7 +27,7 @@ public class ContentAdapter extends ArrayAdapter<Tracks> {
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if the existing view is being reused, otherwise inflate the view
         View listItemView = convertView;
-        if (listItemView == null) {
+        if (convertView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
         }

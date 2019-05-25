@@ -1,29 +1,29 @@
 <resources>
     <string name="app_name">Mellon Collie</string>
 
-    //Text for activities
+    <!-- Text for activities. -->
     <string name="mellon_collie_infinite_sadness">Mellon Collie and the Infinite Sadness</string>
     <string name="smashing_pumpkins">The Smashing Pumpkins</string>
     <string name="track_list">Full Track List</string>
     <string name="legacy">Praise for Mellon Collie</string>
     <string name="about">About this edition</string>
 
-    //Text for buy button view
+    <!-- Text for buy button view. -->
     <string name="buy">Buy</string>
 
     //Text for band members
+    <!-- This is the styling for the title text. -->
     <string name="billy_corgan">Billy Corgan</string>
     <string name="james_iha">James Iha</string>
     <string name="darcy_wretzky">D\'arcy Wretzky</string>
     <string name="jimmy_chamberlin">Jimmy Chamberlin</string>
 
-
-    //Quote texts for the legacy activity
+    <!-- Quote texts for the legacy activity. -->
     <string name="guardian_quote">Mellon Collie deserves its success. It\’s one of the most varied,
         far-reaching rock records of the last 30 years, moving from gentle lullabies to heavy metal
         epics via electronic pop and razor-edged alt rock.".</string>
 
-    //Album info text for the about activity
+    <!-- Album info text for the about activity. -->
     <string name="about_one">About</string>
     <string name="deluxe_edition">Deluxe Edition Vinyl Box Set</string>
     <string name="deluxe_edition_lp">Deluxe Edition 4 x LP Vinyl Box Set</string>
@@ -33,7 +33,7 @@
         your own scenes from the MELLON COLLIE universe. The bonus content and special features were curated from the
         band\'s archives by Billy Corgan, and have been painstakingly remastered for the first time from the original master tapes by Bob Ludwig.</string>
 
-    //Strings for the band notes
+    <!-- Strings for the band notes. -->
     <string name="billy_notes">William Patrick Corgan Jr. is an American musician and songwriter, who is the lead singer, primary songwriter, guitarist, and sole permanent member of The Smashing Pumpkins.</string>
     <string name="jimmy_notes"> After three years with the show band JP and the Cats, Chamberlin, wearied by the touring schedule, quit and got a job building custom homes with his brother-in-law. Before long, he joined the Smashing Pumpkins.</string>
     <string name="james_notes">In 1987 Iha, then playing guitar in the Chicago band Snake Train, met Billy Corgan via a friend. Corgan had already been telling people he was in a band called "Smashing Pumpkins", and decided to make it a real band with Iha.</string>

@@ -8,7 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    //This is the styling for the activity link text
+    <!-- This is the styling for the activity link text. -->
 
     <style name="CategoryText">
         <!-- Customize your theme here. -->
@@ -23,7 +23,7 @@
 
     </style>
 
-    //This is the styling for the title text
+    <!-- This is the styling for the title text. -->
 
     <style name="TitleText">
         <!-- Customize your theme here. -->
@@ -37,7 +37,7 @@
 
     </style>
 
-    //This is the style for the band notes
+    <!-- This is the style for the band notes. -->
 
     <style name="bandNotes">
         <!-- Customize your theme here. -->

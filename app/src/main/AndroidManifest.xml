@@ -11,9 +11,27 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".About"></activity>
-        <activity android:name=".TrackList" />
-        <activity android:name=".SmashingPumpkins" />
+        <activity android:name=".About"
+            android:label="@string/about"
+            android:parentActivityName="com.example.android.melloncollie.About" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.melloncollie.About" /></activity>
+        <activity android:name=".TrackList"
+            android:label="@string/track_list"
+            android:parentActivityName="com.example.android.melloncollie.TrackList" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.melloncollie.TrackList" /></activity>
+        <activity android:name=".SmashingPumpkins"
+            android:label="@string/smashing_pumpkins"
+            android:parentActivityName="com.example.android.melloncollie.SmashingPumpkins" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.melloncollie.SmashingPumpkins" /></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
