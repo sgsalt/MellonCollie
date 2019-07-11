@@ -1,4 +1,4 @@
-# Mellon Collie Deluxe Edition Info App
+# Mellon Collie Deluxe Edition
 
 Android Basics by Google Nanodegree Program
 
